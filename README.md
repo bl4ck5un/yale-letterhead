@@ -1,22 +1,6 @@
-# Yale School of Management LaTeX Letterhead
+# Yale LaTeX Letterhead
 
-I use [XeLaTeX](http://www.xelatex.org/) via the [MacTex](https://tug.org/mactex/)
-distribution on my Macs. XeLaTeX gives you all the
-[beauty of LaTeX typesetting](http://nitens.org/taraborelli/latex)
-with your Mac system fonts via
-[fontspec](http://www.ctan.org/tex-archive/macros/xetex/latex/fontspec/).
-
-This LaTeX Yale SOM
-letterhead conforms to that which I've seen in the wild;
-however, SOM's placement of the school shield appears to be non-conforming with the
-official [Yale letterhead guidelines](http://www.yale.edu/printer/identity/stationery.html).
-This letterhead uses the [Yale typeface](https://yaleidentity.yale.edu/typeface/download-yale-typeface).
-
-Enjoy!
-
-## Authors
-* [Olav Sorenson](http://som.yale.edu/olav-sorenson) (original)
-* [Kyle Jensen](https://github.com/kljensen)
+based on https://github.com/kljensen/yale-som-letterhead.
 
 ## License (the "unlicense")
 
