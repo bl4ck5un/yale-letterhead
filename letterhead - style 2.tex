@@ -1,0 +1,71 @@
+\documentclass[letterpaper]{letter}
+\usepackage[margin=1.5in]{geometry}
+\usepackage[USenglish]{babel}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{url}
+\usepackage[export]{adjustbox} % valign
+\usepackage{fancyhdr}
+
+\setlength{\parindent}{0pt}% Remove paragraph indent
+
+
+\pagestyle{fancy}
+\fancyhf{}% Clear header/footer
+\fancyfoot[R]{\itshape Page~\thepage~of~\csname @abspage@last\endcsname}
+\renewcommand{\headrulewidth}{0pt}% Remove header rule
+
+
+\definecolor{yaleblue}{RGB}{0,52,106}
+
+\date{}
+
+\graphicspath{{img}}
+
+\begin{document}
+
+\begin{tabular}[t]{@{} l @{}}
+    \includegraphics[height=3\normalbaselineskip,valign=t]{yale_newlogo_yaleblue.eps} \\
+    \\
+    \color{yaleblue} Dept. Computer Science \\
+    \color{yaleblue} 51 Prospect St, New Haven CT 06511
+  \end{tabular}%
+  \hfill
+  \begin{tabular}[t]{@{} r @{}}
+    \bfseries \color{yaleblue} Prof. Fan Zhang \\
+    \color{yaleblue} Assistant Professor \\
+    \color{yaleblue} Dept.\ Computer Science \\
+    \color{yaleblue} Yale University \\
+    \color{yaleblue} \url{f.zhang@yale.edu} \\
+    \color{yaleblue} \url{http://fanzhang.me} \\
+  \end{tabular}
+
+\bigskip
+
+November 25, 2022\\
+Subject: Recommendation Letter for ZBC
+
+\bigskip
+To Whom It May Concern,
+
+\bigskip
+
+
+
+
+\bigskip
+Sincerely,\\
+\bigskip\\
+\includegraphics[width=4.5cm]{sig.jpeg}\\
+Fan Zhang \\
+\mbox{Assistant Professor of Computer Science} \\
+Yale University
+
+
+\bigskip
+{
+  % \footnotesize
+\em About the letter writer: blah
+}
+
+\end{document}
