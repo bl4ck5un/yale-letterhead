@@ -1,0 +1,72 @@
+\documentclass[letterpaper]{letter}
+\usepackage[margin=1.5in]{geometry}
+\usepackage[USenglish]{babel}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{url}
+\usepackage[export]{adjustbox} % valign
+\usepackage{fancyhdr}
+
+\setlength{\parindent}{0pt}% Remove paragraph indent
+
+
+\pagestyle{fancy}
+\fancyhf{}% Clear header/footer
+\fancyfoot[R]{\itshape Page~\thepage~of~\csname @abspage@last\endcsname}
+\renewcommand{\headrulewidth}{0pt}% Remove header rule
+
+
+\definecolor{yaleblue}{RGB}{0,52,106}
+
+\date{}
+
+\graphicspath{{img}}
+
+\begin{document}
+
+\begin{tabular}[t]{@{} l @{}}
+    \includegraphics[height=3\normalbaselineskip,valign=t]{yale_newlogo_yaleblue.eps} \\
+    \\
+    \color{yaleblue} Department of Computer Science \\
+    \color{yaleblue} 51 Prospect St, New Haven CT 06511
+  \end{tabular}%
+  \hfill
+  \begin{tabular}[t]{@{} r @{}}
+    \bfseries \color{yaleblue} Prof. Eli Bucks \\
+    \color{yaleblue} Assistant Professor \\
+    \color{yaleblue} Dept.\ Computer Science \\
+    \color{yaleblue} Yale University \\
+    \color{yaleblue} \url{eli.bucks@yale.edu} \\
+    \color{yaleblue} \url{http://eli.bucks} \\
+  \end{tabular}
+
+\bigskip
+
+November 25, 2022\\
+Subject: Recommendation Letter for ZBC
+
+\bigskip
+To Whom It May Concern,
+
+\bigskip
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+\bigskip
+Sincerely,\\
+\bigskip\\
+\includegraphics[width=4.5cm]{signature.png}\\
+Eli Bucks \\
+\mbox{Assistant Professor of Computer Science} \\
+Yale University
+
+
+\bigskip
+{
+  % \footnotesize
+\em About the letter writer: blah
+}
+
+\end{document}

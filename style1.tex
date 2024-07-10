@@ -1,0 +1,71 @@
+\documentclass[letterpaper]{letter}
+\usepackage[includeheadfoot,margin=1.1in]{geometry}
+\usepackage[USenglish]{babel}
+\usepackage{graphicx, textpos}
+\usepackage{color}
+\usepackage{url}
+
+
+\definecolor{yaleblue}{RGB}{0,52,106}
+
+\oddsidemargin=.5in
+\evensidemargin=.5in
+\textwidth=12.5cm
+\topmargin=0cm
+\textheight=20cm
+
+\date{}
+
+\signature{
+	\includegraphics[width=4.5cm]{img/signature.png}\\
+	Eli Bucks \\
+	\mbox{Assistant Professor of Computer Science} \\
+	Yale University \\
+	\vspace{3cm}
+	About the letter write: blah blah
+}
+\begin{document}
+
+
+
+\begin{letter}{
+	February 28, 2014\\
+	Subject: XXX\\
+	\bigskip
+	Dude Duder\\
+	Department of Dudeship\\
+	University of Dudes
+}
+
+\begin{textblock}{4}(0,-2.2)
+% \noindent
+% \hspace*{-0.35cm}
+\includegraphics[width=1in]{img/yale_newlogo_yaleblue.eps}
+\end{textblock}
+
+{
+	\footnotesize
+	\begin{textblock}{3}(9.45,-1)
+		{
+			\color{yaleblue}
+			\noindent
+			\textsc{Eli Bucks}\\
+			\emph{Assistant Professor \\Computer Science}
+
+			51 Prospect St\\
+			New Haven, CT 06511\\
+			\url{eli.bucks@yale.edu}\\
+			\url{http://fanzhang.me}
+		}
+	\end{textblock}
+}
+
+	\opening{Dude,}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+\closing{\vspace{1cm}Sincerely,}
+\end{letter}
+
+\end{document}
