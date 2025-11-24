@@ -12,6 +12,7 @@
 *.fls
 *.synctex.gz
 *.run.xml
+*.xdv
 
 # HTLaTeX
 *.html
@@ -28,6 +29,9 @@
 # MacOS
 .DS_Store
 *~
+
+# fonts
+*.otf
 
 # Output
 *.pdf

@@ -1,28 +1,37 @@
-\documentclass[letterpaper]{letter}
-\usepackage[margin=1.5in]{geometry}
+\documentclass[letterpaper,12pt]{letter}
+\usepackage[includeheadfoot,margin=1in]{geometry}
 \usepackage[USenglish]{babel}
-\usepackage{graphicx}
+\usepackage{graphicx, textpos}
 \usepackage{color}
 \usepackage{url}
+% \usepackage[camera,notes=true]{dtrt}
 \usepackage[export]{adjustbox} % valign
-\usepackage{fancyhdr}
+\usepackage[useregional]{datetime2} % format date
+\usepackage{fontspec}
 
-\setlength{\parindent}{0pt}% Remove paragraph indent
-
-
-\pagestyle{fancy}
-\fancyhf{}% Clear header/footer
-\fancyfoot[R]{\itshape Page~\thepage~of~\csname @abspage@last\endcsname}
-\renewcommand{\headrulewidth}{0pt}% Remove header rule
-
+% Set the main font using your custom YaleNew Roman
+\setmainfont{Yale2024-Roman.otf}[
+  Path = yalefont/,
+  Extension = .otf,
+  BoldFont = Yale2024-Bold,
+  ItalicFont = Yale2024-Italic,
+  BoldItalicFont = Yale2024-BoldItalic,
+  UprightFont = Yale2024-Roman
+]
 
 \definecolor{yaleblue}{RGB}{0,52,106}
 
+% \oddsidemargin=.5in
+% \evensidemargin=.5in
+% \textwidth=12.5cm
+\topmargin=0cm
+\textheight=20cm
+% \setlength{\parindent}{0pt}% Remove paragraph indent
+
 \date{}
 
-\graphicspath{{img}}
-
 \begin{document}
+
 
 \begin{tabular}[t]{@{} l @{}}
     \includegraphics[height=3\normalbaselineskip,valign=t]{img/yale_newlogo_yaleblue.eps} \\

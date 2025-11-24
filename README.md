@@ -1,6 +1,9 @@
 # Yale LaTeX Letterhead
 
-based on https://github.com/kljensen/yale-som-letterhead.
+> [!WARNING]
+> To use the official Yale font, go get the font files from https://yaleidentity.yale.edu/core-identity-elements/yale-typefaces, and see style3.tex for an example (with XeLaTeX).
+
+Credit: based on https://github.com/kljensen/yale-som-letterhead.
 
 ## License (the "unlicense")
 
