@@ -1,0 +1,76 @@
+\documentclass[letterpaper]{letter}
+\usepackage[top=0.75in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage[USenglish]{babel}
+\usepackage{graphicx}
+\usepackage[absolute]{textpos}
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{1cm}
+\usepackage{color}
+\usepackage{url}
+% Yale fonts are licensed — obtain from:
+% https://yaleidentity.yale.edu/core-identity-elements/yale-typefaces
+% Place the .otf files in the yalefont/ directory before compiling.
+\usepackage{fontspec}
+\setmainfont{Yale2024-Roman.otf}[
+  Path = yalefont/,
+  Extension = .otf,
+  BoldFont = Yale2024-Bold,
+  ItalicFont = Yale2024-Italic,
+  BoldItalicFont = Yale2024-BoldItalic,
+  UprightFont = Yale2024-Roman
+]
+
+
+\definecolor{yaleblue}{RGB}{0,52,106}
+
+\date{}
+
+\signature{
+	\includegraphics[width=4.5cm]{img/signature.png}\\
+	\textsc{[First Last]} \\
+	\textit{[Position]}, [Department] \\
+	Yale University
+}
+\begin{document}
+
+
+
+\begin{letter}{
+	\today\\
+	Subject: [Subject]\\
+	\bigskip
+	[Recipient Name]\\{}
+	[Department]\\{}
+	[Institution]
+}
+
+\begin{textblock}{4}(2.54,1.9)
+\includegraphics[width=1in]{img/yale_newlogo_yaleblue.eps}
+\end{textblock}
+
+{
+	\footnotesize
+	\begin{textblock}{3}(16.05,1.9)
+		{
+			\color{yaleblue}
+			\noindent
+			\textsc{[First Last]}\\
+			\textit{[Position]}\\
+			\textit{[Department]}\\[4pt]
+			51 Prospect St\\
+			New Haven, CT 06511\\
+			your.name@yale.edu\\
+			yourwebsite.com
+		}
+	\end{textblock}
+}
+
+	\opening{To Whom It May Concern,}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+\closing{\vspace{1cm}Sincerely,}
+\end{letter}
+
+\end{document}
